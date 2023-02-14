@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wineopener</title>
+    <style>
+        /* CSS Reset */
+        *{
+            box-sizing:border-box;
+            margin:0;
+            border:none;
+            padding:0;
+        }
+        a{
+            text-decoration:none;
+        }
+        img{
+            width:100%;
+        }
+        /* Grid */
+        .col01{width:75px;}
+        .col02{width:163px;}
+        .col03{width:251px;}
+        .col04{width:339px;}
+        #wrap{
+            width:375px;
+            height:812px;
+            margin:0 auto;
+            background-color:rgba(232,102,125,0.5);
+        }
+        /* HEADER 스타일 시작 */
+        header{
+            width:375px;
+            height:167px;
+            padding:74px 18px 0 18px;
+        }
+        h1{
+            font-family:'Roboto';
+            font-weight:900;
+            font-size:26px;
+            color:#d80027;
+            text-align:center;
+        }
+        /* HEADER 스타일 끝 */
+        /* SECTION 스타일 시작 */
+        section{
+            width:375px;
+            height:413px;
+        }
+        .img-box{
+            width:339px;
+            height:188px;
+            margin:0 auto;
+        }
+        #points{
+            position:relative;
+            left:159px;
+            top:33px;
+        }
+        .dot{
+            width:8px;
+            height:8px;
+            margin-right:5px;
+            margin-left:5px;
+            border-radius:4px;
+            background-color:#f2a7b5;
+            display:inline-block;
+        }
+        #first-dot{
+            background-color:#d80027;
+        }
+        section p{
+            font-family:'Noto Sans KR';
+            font-weight:700;
+            font-size:26px;
+            color:#d80027;
+            text-align:center;
+            margin-top:82px;
+        }
+        /* SECTION 스타일 끝 */
+        /* FOOTER 스타일 시작 */
+        footer{
+            width:375px;
+            height:232px;
+            padding:0 18px;
+        }
+        footer div{
+            height:50px;
+            padding-top:8px;
+            border-radius:25px;
+            float:left;
+            text-align:center;
+        }
+        footer .register{
+            margin-right:13px;
+            padding-top:10px;
+            background-color:#d80027;
+        }
+        footer .login{
+            margin-right:0;
+            border:2px solid #d80027;
+            background-color:#ffffff;
+        }
+        footer .col04{
+            margin-top:16px;
+            padding:10px 0 0 20px;
+            background-color:#f2dc00;
+        }
+        footer a{
+            font-family:'Noto Sans KR';
+            font-weight:400;
+            font-size:20px;
+        }
+        footer .register a{
+            color:#ffffff;
+        }
+        footer .login a{
+            color:#d80027;
+        }
+        footer .col04 a{
+            color:#333333;
+        }
+        footer .img-box{
+            width:75px;
+            height:75px;
+            position:absolute;
+            left:210px;
+            top:643px;
+        }
+        /* FOOTER 스타일 끝 */
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <a href="./INDEX.html"><h1>WINEOPENER</h1></a>
+        </header>
+        <section>
+            <div class="sec-contents">
+                <div class="img-box">
+                    <img src="./images/wine.png" alt="와인">
+                </div>
+                <div id="points">
+                    <div class="dot" id="first-dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <p>특별한 날엔<br>와인과 함께하세요</p>
+            </div>
+        </section>
+        <footer>
+            <div class="col02 register"><a href="#">회원가입</a></div>
+            <div class="col02 login"><a href="./LOGIN.html">로그인</a></div>
+            <div class="col04">
+                <div class="img-box">
+                    <img src="./images/kakao.png" alt="카카오">
+                </div>
+                <a href="#">카카오계정으로 로그인</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wineopener</title>
+    <style>
+        /* CSS Reset */
+        *{
+            box-sizing:border-box;
+            margin:0;
+            border:none;
+            padding:0;
+        }
+        a{
+            text-decoration:none;
+        }
+        img{
+            width:100%;
+        }
+        /* Grid */
+        .col01{width:75px;}
+        .col02{width:163px;}
+        .col03{width:251px;}
+        .col04{width:339px;}
+        #wrap{
+            width:375px;
+            height:812px;
+            margin:0 auto;
+        }
+        /* HEADER 스타일 시작 */
+        header{
+            width:375px;
+            height:58px;
+            padding:19px 18px 0 18px;
+        }
+        header .btn-prev{
+            width:12px;
+            height:12px;
+            border:5px solid #d80027;
+            border-right:none;
+            border-bottom:none;
+            position:relative;
+            left:0px;
+            top:-25px;
+            transform:rotate(-45deg);
+        }
+        h1{
+            font-family:'Roboto';
+            font-weight:900;
+            font-size:26px;
+            color:#d80027;
+            text-align:center;
+        }
+        /* HEADER 스타일 끝 */
+        /* SECTION 스타일 시작 */
+        section{
+            width:375px;
+            height:522px;
+        }
+        section h2{
+            font-family:'Noto Sans KR';
+            font-weight:500;
+            font-size:36px;
+            color:#d80027;
+            margin:78px 0 45px 0;
+        }
+        section p{
+            font-family:'Noto Sans KR';
+            font-weight:300;
+            font-size:16px;
+            color:#333333;
+        }
+        .line{
+            width:375px;
+            height:3px;
+            background-color:#d80027;
+            margin-bottom:51px;
+        }
+        section .email{
+            margin-bottom:14px;
+        }
+        section .password{
+            margin-bottom:38px;
+        }
+        section .find{
+            float:right;
+            font-weight:400;
+            color:#d80027;
+        }
+        /* SECTION 스타일 끝 */
+        /* FOOTER 스타일 시작 */
+        footer{
+            width:375px;
+            height:232px;
+            padding:0 18px;
+            font-family:'Noto Sans KR';
+            font-weight:500;
+            color:#d80027;
+        }
+        footer div{
+            height:50px;
+            margin-bottom:16px;
+            padding-top:6px;
+            border-radius:25px;
+            margin-right:0;
+            background-color:#d80027;
+            text-align:center;
+        }
+        footer a{
+            font-size:26px;
+            color:#ffffff;
+        }
+        footer p{
+            margin:0 5px 0 70px;
+            font-size:16px;
+            color:#333333;
+            float:left;
+        }
+        .register{
+            font-size:16px;
+            color:#d80027;
+        }
+        /* FOOTER 스타일 끝 */
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1>로그인</h1>
+            <a href="./BEST.html"><div class="btn-prev"></div></a>
+        </header>
+        <section>
+            <div class="sec-contents">
+                <h2>환영합니다</h2>
+                <p class="email">Email</p>
+                <p>newworld1423@naver.com</p>
+                <div class="line"></div>
+                <p class="password">Password</p>
+                <div class="line"></div>
+                <a href="#">
+                    <p class="find">패스워드찾기</p>
+                </a>
+            </div>
+        </section>
+        <footer>
+            <div class="col04"><a href="#">로그인</a></div>
+            <p>회원이 아니신가요?</p>
+            <a class="register" href="#">회원가입</a>
+        </footer>
+    </div>
+</body>
+</html>
